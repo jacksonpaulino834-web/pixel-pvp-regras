@@ -4,9 +4,16 @@ site:
   structure:
     - type: space
       key: space-1
-      title: Documentation
+      title: PPV Regras e Termos.
       path: documentation
       default: true
       content:
         directory: ./documentation
         language: pt-br
+    - type: space
+      key: space-2
+      title: Imported content
+      path: imported-content
+      draft: true
+      content:
+        directory: ./imported-content
